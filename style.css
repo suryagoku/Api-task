@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap");
+:root {
+  font-size: 16px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  /* overflow: hidden; */
+}
+
+.header {
+  width: 100%;
+  height: 15vh;
+  background-color: bisque;
+}
+.header-box {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.title-box {
+  width: 80%;
+  margin: 0 auto;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.title-icon {
+  width: 110px;
+  height: 47px;
+}
+.side-icons {
+  display: flex;
+  gap: 20px;
+}
+.icons {
+  width: 20px;
+  height: 20px;
+}
+.title {
+  margin-right: 36.5%;
+}
+.menu-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 4%;
+}
+.menu-btns,
+.home {
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+.main {
+  width: 80vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.category-wrapper {
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  margin: 5% 0;
+  gap: 5vh;
+}
+.heading-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  color: rgb(255, 190, 111);
+}
+.show-all {
+  background-color: bisque;
+  padding: 0.5em 0.75em;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+.box {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: burlywood; */
+}
+.items {
+  width: 21%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid bisque;
+  padding: 0 0.75em;
+
+  /* outline: auto; */
+}
+.item-img-box {
+  width: 100%;
+  height: 28vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-details {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: bisque;
+  padding: 0.5em 0.75em;
+  margin-top: 1em;
+  line-height: 1.4;
+}
+.item-img {
+  width: 80%;
+  height: 240px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+.heading {
+  text-transform: uppercase;
+}
+.item-title {
+  font-weight: 700;
+  text-align: left;
+}
+.item-price {
+  font-size: 1.5em;
+  text-align: left;
+}
+/* .tabs {
+  display: flex;
+  height: auto;
+  gap: 1%;
+} */
+.hidden {
+  display: none;
+}
